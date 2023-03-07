@@ -103,7 +103,6 @@ python test.py --gpu_id=0,1 --num_process=0 --experiment=translate_track --train
   title={Representation Learning for Visual Object Tracking by Masked Appearance Transfer},
   author={Haojie Zhao and Dong Wang and Huchuan Lu},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={1-8},
   year={2023}
 }
 ```
