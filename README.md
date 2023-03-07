@@ -1,5 +1,5 @@
 # MAT
-[Representation Learning for Visual Object Tracking by Masked Appearance Transfer](./misc/CVPR_23_MAT_Final.pdf)
+Code for the CVPR2023 paper: [Representation Learning for Visual Object Tracking by Masked Appearance Transfer](./misc/CVPR_23_MAT_Final.pdf)
 
 
 ---
@@ -110,7 +110,7 @@ python test.py --gpu_id=0,1 --num_process=0 --experiment=translate_track --train
 
 ## **Acknowledgments**
 
-- Thanks for the great [MAE](https://github.com/facebookresearch/mae),
+- Thanks for [MAE](https://github.com/facebookresearch/mae),
 [MixFormer](https://github.com/MCG-NJU/MixFormer),
 [pysot](https://github.com/STVIR/pysot).
 - For data augmentation, we use [Albumentations](https://github.com/albumentations-team/albumentations).
