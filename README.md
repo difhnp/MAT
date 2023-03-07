@@ -1,4 +1,5 @@
-# MAT - Representation Learning for Visual Object Tracking by Masked Appearance Transfer
+# MAT
+[Representation Learning for Visual Object Tracking by Masked Appearance Transfer](./misc/CVPR_23_MAT_Final.pdf)
 
 
 ---
