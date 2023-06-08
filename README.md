@@ -128,12 +128,13 @@ python test.py --gpu_id=0,1 --num_process=0 --experiment=translate_track --train
 ## Citation
 
 ```bibtex
-@inproceedings{zhao2023mat,
-  title={Representation Learning for Visual Object Tracking by Masked Appearance Transfer},
-  author={Haojie Zhao and Dong Wang and Huchuan Lu},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={1-8},
-  year={2023}
+@InProceedings{Zhao_2023_CVPR,
+    author    = {Zhao, Haojie and Wang, Dong and Lu, Huchuan},
+    title     = {Representation Learning for Visual Object Tracking by Masked Appearance Transfer},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {18696-18705}
 }
 ```
 
