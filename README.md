@@ -86,7 +86,7 @@ python -m torch.distributed.launch --nproc_per_node=2 train.py --experiment=tran
 
 We provide a multi-process testing script for evaluation on several benchmarks.
 Please modify the paths to your dataset in `./lib/register/paths.py`.
-Download the [checkpoint](https://drive.google.com/file/d/1rQ_hWsd0ZlBax224V443M42aNGasfKdR/view?usp=share_link) and put it into `./checkpoints/translate_track_common/`.
+Download this [checkpoint](https://drive.google.com/file/d/1rQ_hWsd0ZlBax224V443M42aNGasfKdR/view?usp=share_link) and put it into `./checkpoints/translate_track_common/`, and download this [checkpoint](https://drive.google.com/file/d/1mWpQR_96GBcB4sAAcopkHJ9b8N9S1a3F/view?usp=sharing) and put it into `./checkpoints/translate_template_common_pretrain/`.
 ```shell
 python test.py --gpu_id=0,1 --num_process=0 --experiment=translate_track --train_set=common --benchmark=lasot --vis
 ```

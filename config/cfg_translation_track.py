@@ -16,7 +16,7 @@ cfg.model.backbone.template_size = cfg.model.template_size
 cfg.model.backbone.type = 'MAEEncode'
 #
 cfg.model.backbone.arch = 'base'
-cfg.model.backbone.weights = '/home/space/Documents/Experiments/BaseT/checkpoints/translate_template_common_pretrain25/translate_template_common_pretrain_E500.pth'  # absolute path to pretrain checkpoint
+cfg.model.backbone.weights = './checkpoints/translate_template_common_pretrain/translate_template_common_pretrain_E500.pth'  # absolute path to pretrain checkpoint
 
 # cfg.model.backbone.arch = 'small'
 # cfg.model.backbone.weights = '/home/space/Documents/Experiments/BaseT/pretrain/vit-s16-moco3.pth'  # absolute path to pretrain checkpoint

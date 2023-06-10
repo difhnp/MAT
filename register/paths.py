@@ -6,7 +6,7 @@ from easydict import EasyDict as Edict
 
 path_register = Edict()
 
-path_register.project_dir = '/data2/Desktop/Papers/NeuIPS2022_supp_code'
+path_register.project_dir = '/data2/Desktop/MAT'
 assert os.path.exists(path_register.project_dir), "Please set path in `lib/register/paths` !"
 
 sys.path.append(path_register.project_dir)
